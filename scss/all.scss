@@ -1,0 +1,13 @@
+// 全域css
+@import "variable";
+@import "reset";
+@import "mixin";
+
+//分別
+@import "total";
+@import "header";
+@import "main";
+@import "footer";
+
+//第三方
+@import "swiper";

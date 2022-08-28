@@ -1,0 +1,155 @@
+main {
+    // TODO 用定位自己的高度
+  .swiper {
+    height: 560px;
+    width: 100%;
+  }
+  .choose {
+    padding: 0 140px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 45px;
+      a {
+        border-bottom: 0;
+        padding-bottom: 0;
+        text-decoration: underline;
+        margin-top: 10px;
+    color: #0067b8;
+    font-weight: bold;
+      }
+    }
+  }
+  .card-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    width: 100%;
+    padding: 0 140px;
+    .card {
+        //
+      width: 23%;
+      height: 360px;
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3) {
+        margin-right: 20px;
+      }
+      
+      h3 {
+       
+        margin: 20px 0;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      a {
+        color: #0067b8;
+        font-weight: 600;
+      }
+    }
+  }
+  .banner-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    padding: 0 140px;
+    .banner {
+      width: 100%;
+      height: 565px;
+      background-image: url(../img/gldn-Soft-Hero-OneDriveCampaignRefresh-2_VP5-1596x600.jpeg);
+      background-size: cover;
+      position: relative;
+      .banner-content{
+        width: 500px;
+        height: 250px;
+        position: absolute;
+        top: 210px;
+        left:88px;
+        h3{
+          font-size: 38px;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+        p{
+          font-size: 16px;
+          margin-bottom: 20px;
+        }
+        div{
+          width: 90px;
+          height: 35px;
+          background-color: #0665ae;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  .business-group {
+    padding: 0 140px;
+    margin-bottom: 60px;
+    & > h3 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    display: flex;
+    flex-direction: column;
+    .business-card-group {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 100px;
+      .business-card {
+        width: 360px;
+        height: 360px;
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3) {
+          margin-right: 20px;
+        }
+        h3 {
+          margin: 20px 0;
+          margin-top: 50px;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        p {
+          margin-bottom: 50px;
+        }
+        a {
+          color: #0067b8;
+        font-weight: 600;
+        }
+      }
+    }
+  }
+  .focus{
+    display: flex;
+    padding: 0 140px;
+    margin-bottom: 60px;
+    align-items: center;
+    img{
+        width: 30px;
+        height: 30px;
+        margin-left: 25px;
+    }
+    a{
+      &:hover{
+        text-decoration: none;
+        border-bottom: 0;
+        padding: 0;
+      }
+    }
+  }
+}

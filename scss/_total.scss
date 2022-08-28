@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: Microsoft JhengHei ;
+  // font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a {
+
+  text-decoration: none;
+  &:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}

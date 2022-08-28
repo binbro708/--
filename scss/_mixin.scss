@@ -1,0 +1,7 @@
+@mixin pc-s {
+  @media (max-width: 1400) {
+    @content;
+  }
+}
+
+
